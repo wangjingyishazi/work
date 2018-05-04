@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>dom</title>
+</head>
+<body>
+  <script>
+    function init(){
+      var obj = document.getElementById("t");
+    
+    alert(obj.innerHTML +  " ，我其实是个字符串");
+    obj.innerHTML = "改个名字";
+    }
+
+    window.onload = init;
+  </script>
+    <h1 id="t">我是一个标题</h1>
+</body>
+</html>
